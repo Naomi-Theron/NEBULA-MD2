@@ -1,18 +1,18 @@
 {
-  "name": "ANONYMOUS-MD",
+  "name": "NEBULA MD",
   "version": "2.0.1",
   "description": "WhatsApp Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docker:build": "docker build -t knightbot .",
-    "docker:run": "docker run -e SESSION_ID=$SESSION_ID Anonymous bot"
+    "docker:build": "docker build -t Nebulamd .",
+    "docker:run": "docker run -e SESSION_ID=$SESSION_ID nebulamd"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "",
+  "author": "ridzcoder",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
